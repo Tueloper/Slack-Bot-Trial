@@ -4,7 +4,8 @@
   "description": "A simple Slackbot that displays random inspiring techie quotes for developers/designers.",
   "main": "index.js",
   "scripts": {
-    "start": "index.js"
+    "start": "index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/BolajiAyodeji/slackbot/issues"
   },
-  "homepage": "https://github.com/BolajiAyodeji/slackbot#readme"
+  "homepage": "https://github.com/BolajiAyodeji/slackbot#readme",
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
